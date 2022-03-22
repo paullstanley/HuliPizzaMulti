@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD23B6E27EA548400FEB9E2 /* HuliPizzaMultiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B5E27EA548200FEB9E2 /* HuliPizzaMultiApp.swift */; };
+		FAD23B6F27EA548400FEB9E2 /* HuliPizzaMultiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B5E27EA548200FEB9E2 /* HuliPizzaMultiApp.swift */; };
+		FAD23B7227EA548400FEB9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD23B6027EA548300FEB9E2 /* Assets.xcassets */; };
+		FAD23B7327EA548400FEB9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD23B6027EA548300FEB9E2 /* Assets.xcassets */; };
+		FAD23B9027EA563600FEB9E2 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B7E27EA563600FEB9E2 /* PageTitleView.swift */; };
+		FAD23B9127EA563600FEB9E2 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B7E27EA563600FEB9E2 /* PageTitleView.swift */; };
+		FAD23B9227EA563600FEB9E2 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8027EA563600FEB9E2 /* MenuRowView.swift */; };
+		FAD23B9327EA563600FEB9E2 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8027EA563600FEB9E2 /* MenuRowView.swift */; };
+		FAD23B9427EA563600FEB9E2 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8127EA563600FEB9E2 /* RatingsView.swift */; };
+		FAD23B9527EA563600FEB9E2 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8127EA563600FEB9E2 /* RatingsView.swift */; };
+		FAD23B9627EA563600FEB9E2 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8227EA563600FEB9E2 /* MenuListView.swift */; };
+		FAD23B9727EA563600FEB9E2 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8227EA563600FEB9E2 /* MenuListView.swift */; };
+		FAD23B9827EA563600FEB9E2 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8327EA563600FEB9E2 /* MenuDetailView.swift */; };
+		FAD23B9927EA563600FEB9E2 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8327EA563600FEB9E2 /* MenuDetailView.swift */; };
+		FAD23B9A27EA563600FEB9E2 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8427EA563600FEB9E2 /* ConfirmView.swift */; };
+		FAD23B9B27EA563600FEB9E2 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8427EA563600FEB9E2 /* ConfirmView.swift */; };
+		FAD23B9C27EA563600FEB9E2 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8627EA563600FEB9E2 /* OrderModel.swift */; };
+		FAD23B9D27EA563600FEB9E2 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8627EA563600FEB9E2 /* OrderModel.swift */; };
+		FAD23B9E27EA563600FEB9E2 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8727EA563600FEB9E2 /* HistoryModel.swift */; };
+		FAD23B9F27EA563600FEB9E2 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8727EA563600FEB9E2 /* HistoryModel.swift */; };
+		FAD23BA027EA563600FEB9E2 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8827EA563600FEB9E2 /* MenuModel.swift */; };
+		FAD23BA127EA563600FEB9E2 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8827EA563600FEB9E2 /* MenuModel.swift */; };
+		FAD23BA227EA563600FEB9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8927EA563600FEB9E2 /* ContentView.swift */; };
+		FAD23BA327EA563600FEB9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8927EA563600FEB9E2 /* ContentView.swift */; };
+		FAD23BA427EA563600FEB9E2 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8A27EA563600FEB9E2 /* ListHeaderView.swift */; };
+		FAD23BA527EA563600FEB9E2 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8A27EA563600FEB9E2 /* ListHeaderView.swift */; };
+		FAD23BA627EA563600FEB9E2 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8B27EA563600FEB9E2 /* ContentHeaderView.swift */; };
+		FAD23BA727EA563600FEB9E2 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8B27EA563600FEB9E2 /* ContentHeaderView.swift */; };
+		FAD23BA827EA563600FEB9E2 /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8C27EA563600FEB9E2 /* SelectedImageView.swift */; };
+		FAD23BA927EA563600FEB9E2 /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8C27EA563600FEB9E2 /* SelectedImageView.swift */; };
+		FAD23BAA27EA563600FEB9E2 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8E27EA563600FEB9E2 /* OrderListView.swift */; };
+		FAD23BAB27EA563600FEB9E2 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8E27EA563600FEB9E2 /* OrderListView.swift */; };
+		FAD23BAC27EA563600FEB9E2 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8F27EA563600FEB9E2 /* OrderRowView.swift */; };
+		FAD23BAD27EA563600FEB9E2 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23B8F27EA563600FEB9E2 /* OrderRowView.swift */; };
+		FAD23BAF27EA61EE00FEB9E2 /* GridNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23BAE27EA61EE00FEB9E2 /* GridNavigationView.swift */; };
+		FAD23BB027EA61EE00FEB9E2 /* GridNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD23BAE27EA61EE00FEB9E2 /* GridNavigationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAD23B5E27EA548200FEB9E2 /* HuliPizzaMultiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaMultiApp.swift; sourceTree = "<group>"; };
+		FAD23B6027EA548300FEB9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD23B6527EA548300FEB9E2 /* HuliPizzaMulti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizzaMulti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD23B6B27EA548400FEB9E2 /* HuliPizzaMulti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizzaMulti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD23B6D27EA548400FEB9E2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FAD23B7C27EA549400FEB9E2 /* HuliPizzaMulti (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HuliPizzaMulti (iOS).entitlements"; sourceTree = "<group>"; };
+		FAD23B7E27EA563600FEB9E2 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		FAD23B8027EA563600FEB9E2 /* MenuRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		FAD23B8127EA563600FEB9E2 /* RatingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		FAD23B8227EA563600FEB9E2 /* MenuListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		FAD23B8327EA563600FEB9E2 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		FAD23B8427EA563600FEB9E2 /* ConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
+		FAD23B8627EA563600FEB9E2 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		FAD23B8727EA563600FEB9E2 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		FAD23B8827EA563600FEB9E2 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		FAD23B8927EA563600FEB9E2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAD23B8A27EA563600FEB9E2 /* ListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		FAD23B8B27EA563600FEB9E2 /* ContentHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
+		FAD23B8C27EA563600FEB9E2 /* SelectedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
+		FAD23B8E27EA563600FEB9E2 /* OrderListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		FAD23B8F27EA563600FEB9E2 /* OrderRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		FAD23BAE27EA61EE00FEB9E2 /* GridNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridNavigationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD23B6227EA548300FEB9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD23B6827EA548400FEB9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD23B5827EA548200FEB9E2 = {
+			isa = PBXGroup;
+			children = (
+				FAD23B7C27EA549400FEB9E2 /* HuliPizzaMulti (iOS).entitlements */,
+				FAD23B5D27EA548200FEB9E2 /* Shared */,
+				FAD23B6C27EA548400FEB9E2 /* macOS */,
+				FAD23B6627EA548300FEB9E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD23B5D27EA548200FEB9E2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FAD23B5E27EA548200FEB9E2 /* HuliPizzaMultiApp.swift */,
+				FAD23B8B27EA563600FEB9E2 /* ContentHeaderView.swift */,
+				FAD23B8927EA563600FEB9E2 /* ContentView.swift */,
+				FAD23B8A27EA563600FEB9E2 /* ListHeaderView.swift */,
+				FAD23B7F27EA563600FEB9E2 /* MenuView */,
+				FAD23B8527EA563600FEB9E2 /* Model */,
+				FAD23B8D27EA563600FEB9E2 /* OrderView */,
+				FAD23B7E27EA563600FEB9E2 /* PageTitleView.swift */,
+				FAD23B8C27EA563600FEB9E2 /* SelectedImageView.swift */,
+				FAD23B6027EA548300FEB9E2 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FAD23B6627EA548300FEB9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD23B6527EA548300FEB9E2 /* HuliPizzaMulti.app */,
+				FAD23B6B27EA548400FEB9E2 /* HuliPizzaMulti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD23B6C27EA548400FEB9E2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAD23B6D27EA548400FEB9E2 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		FAD23B7F27EA563600FEB9E2 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				FAD23B8027EA563600FEB9E2 /* MenuRowView.swift */,
+				FAD23B8127EA563600FEB9E2 /* RatingsView.swift */,
+				FAD23B8227EA563600FEB9E2 /* MenuListView.swift */,
+				FAD23B8327EA563600FEB9E2 /* MenuDetailView.swift */,
+				FAD23B8427EA563600FEB9E2 /* ConfirmView.swift */,
+				FAD23BAE27EA61EE00FEB9E2 /* GridNavigationView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		FAD23B8527EA563600FEB9E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAD23B8627EA563600FEB9E2 /* OrderModel.swift */,
+				FAD23B8727EA563600FEB9E2 /* HistoryModel.swift */,
+				FAD23B8827EA563600FEB9E2 /* MenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAD23B8D27EA563600FEB9E2 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				FAD23B8E27EA563600FEB9E2 /* OrderListView.swift */,
+				FAD23B8F27EA563600FEB9E2 /* OrderRowView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD23B6427EA548300FEB9E2 /* HuliPizzaMulti (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD23B7627EA548400FEB9E2 /* Build configuration list for PBXNativeTarget "HuliPizzaMulti (iOS)" */;
+			buildPhases = (
+				FAD23B6127EA548300FEB9E2 /* Sources */,
+				FAD23B6227EA548300FEB9E2 /* Frameworks */,
+				FAD23B6327EA548300FEB9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HuliPizzaMulti (iOS)";
+			productName = "HuliPizzaMulti (iOS)";
+			productReference = FAD23B6527EA548300FEB9E2 /* HuliPizzaMulti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD23B6A27EA548400FEB9E2 /* HuliPizzaMulti (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD23B7927EA548400FEB9E2 /* Build configuration list for PBXNativeTarget "HuliPizzaMulti (macOS)" */;
+			buildPhases = (
+				FAD23B6727EA548400FEB9E2 /* Sources */,
+				FAD23B6827EA548400FEB9E2 /* Frameworks */,
+				FAD23B6927EA548400FEB9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HuliPizzaMulti (macOS)";
+			productName = "HuliPizzaMulti (macOS)";
+			productReference = FAD23B6B27EA548400FEB9E2 /* HuliPizzaMulti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD23B5927EA548200FEB9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FAD23B6427EA548300FEB9E2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					FAD23B6A27EA548400FEB9E2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = FAD23B5C27EA548200FEB9E2 /* Build configuration list for PBXProject "HuliPizzaMulti" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD23B5827EA548200FEB9E2;
+			productRefGroup = FAD23B6627EA548300FEB9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD23B6427EA548300FEB9E2 /* HuliPizzaMulti (iOS) */,
+				FAD23B6A27EA548400FEB9E2 /* HuliPizzaMulti (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD23B6327EA548300FEB9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD23B7227EA548400FEB9E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD23B6927EA548400FEB9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD23B7327EA548400FEB9E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD23B6127EA548300FEB9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD23B9C27EA563600FEB9E2 /* OrderModel.swift in Sources */,
+				FAD23BA227EA563600FEB9E2 /* ContentView.swift in Sources */,
+				FAD23B9827EA563600FEB9E2 /* MenuDetailView.swift in Sources */,
+				FAD23BA027EA563600FEB9E2 /* MenuModel.swift in Sources */,
+				FAD23BA627EA563600FEB9E2 /* ContentHeaderView.swift in Sources */,
+				FAD23BAA27EA563600FEB9E2 /* OrderListView.swift in Sources */,
+				FAD23B9E27EA563600FEB9E2 /* HistoryModel.swift in Sources */,
+				FAD23B9027EA563600FEB9E2 /* PageTitleView.swift in Sources */,
+				FAD23B9627EA563600FEB9E2 /* MenuListView.swift in Sources */,
+				FAD23B9A27EA563600FEB9E2 /* ConfirmView.swift in Sources */,
+				FAD23BAF27EA61EE00FEB9E2 /* GridNavigationView.swift in Sources */,
+				FAD23BA827EA563600FEB9E2 /* SelectedImageView.swift in Sources */,
+				FAD23B9227EA563600FEB9E2 /* MenuRowView.swift in Sources */,
+				FAD23BAC27EA563600FEB9E2 /* OrderRowView.swift in Sources */,
+				FAD23B6E27EA548400FEB9E2 /* HuliPizzaMultiApp.swift in Sources */,
+				FAD23B9427EA563600FEB9E2 /* RatingsView.swift in Sources */,
+				FAD23BA427EA563600FEB9E2 /* ListHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD23B6727EA548400FEB9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD23B9D27EA563600FEB9E2 /* OrderModel.swift in Sources */,
+				FAD23BA327EA563600FEB9E2 /* ContentView.swift in Sources */,
+				FAD23B9927EA563600FEB9E2 /* MenuDetailView.swift in Sources */,
+				FAD23BA127EA563600FEB9E2 /* MenuModel.swift in Sources */,
+				FAD23BA727EA563600FEB9E2 /* ContentHeaderView.swift in Sources */,
+				FAD23BAB27EA563600FEB9E2 /* OrderListView.swift in Sources */,
+				FAD23B9F27EA563600FEB9E2 /* HistoryModel.swift in Sources */,
+				FAD23B9127EA563600FEB9E2 /* PageTitleView.swift in Sources */,
+				FAD23B9727EA563600FEB9E2 /* MenuListView.swift in Sources */,
+				FAD23B9B27EA563600FEB9E2 /* ConfirmView.swift in Sources */,
+				FAD23BB027EA61EE00FEB9E2 /* GridNavigationView.swift in Sources */,
+				FAD23BA927EA563600FEB9E2 /* SelectedImageView.swift in Sources */,
+				FAD23B9327EA563600FEB9E2 /* MenuRowView.swift in Sources */,
+				FAD23BAD27EA563600FEB9E2 /* OrderRowView.swift in Sources */,
+				FAD23B6F27EA548400FEB9E2 /* HuliPizzaMultiApp.swift in Sources */,
+				FAD23B9527EA563600FEB9E2 /* RatingsView.swift in Sources */,
+				FAD23BA527EA563600FEB9E2 /* ListHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAD23B7427EA548400FEB9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD23B7527EA548400FEB9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FAD23B7727EA548400FEB9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HuliPizzaMulti (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6YKB36Y9U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paullo.HuliPizzaMulti;
+				PRODUCT_NAME = HuliPizzaMulti;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD23B7827EA548400FEB9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HuliPizzaMulti (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6YKB36Y9U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paullo.HuliPizzaMulti;
+				PRODUCT_NAME = HuliPizzaMulti;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD23B7A27EA548400FEB9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6YKB36Y9U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paullo.HuliPizzaMulti;
+				PRODUCT_NAME = HuliPizzaMulti;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FAD23B7B27EA548400FEB9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6YKB36Y9U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paullo.HuliPizzaMulti;
+				PRODUCT_NAME = HuliPizzaMulti;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD23B5C27EA548200FEB9E2 /* Build configuration list for PBXProject "HuliPizzaMulti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD23B7427EA548400FEB9E2 /* Debug */,
+				FAD23B7527EA548400FEB9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD23B7627EA548400FEB9E2 /* Build configuration list for PBXNativeTarget "HuliPizzaMulti (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD23B7727EA548400FEB9E2 /* Debug */,
+				FAD23B7827EA548400FEB9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD23B7927EA548400FEB9E2 /* Build configuration list for PBXNativeTarget "HuliPizzaMulti (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD23B7A27EA548400FEB9E2 /* Debug */,
+				FAD23B7B27EA548400FEB9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD23B5927EA548200FEB9E2 /* Project object */;
+}
